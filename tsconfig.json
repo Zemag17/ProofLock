@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "jsx": "react-native",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "isolatedModules": true,
+    "strict": true,
+    "target": "esnext",
+    "module": "esnext",
+    "types": ["nativewind/types"],
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@screens/*": ["screens/*"],
+      "@services/*": ["services/*"],
+      "@store/*": ["store/*"],
+      "@navigation/*": ["navigation/*"],
+      "@app/*": ["app/*"],
+      "@theme/*": ["theme/*"],
+      "@types/*": ["types/*"]
+    }
+  },
+  "include": ["src", "App.tsx"],
+  "exclude": ["node_modules"]
+}
